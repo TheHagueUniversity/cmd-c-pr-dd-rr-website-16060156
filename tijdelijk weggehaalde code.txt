@@ -1,0 +1,56 @@
+.actionbutton {
+    background-color: #E20074;
+    border-width: 0px 0px 5px 0px;
+    border-color: #AF005A;
+    border-style: solid;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.headerhomepagina {
+    width: 100%;
+    height: 550px;
+}
+
+.hoofdnavigatie {
+    float: left;
+    display: inline;}
+
+ul.hoofdnavigatie li {
+    float: left;
+    list-style: none;
+    margin: 2%;
+}
+
+
+
+
+.boven-navigatie {
+    width: 100%;
+    height: 36px;
+    background-color: white;
+    border-bottom: 1px solid #E0E0E0;
+}
+__________________
+html:
+__________________
+
+
+                    <figure>
+                        <!-- Dit is de header(foto) op de homepagina -->
+                        <img src="images/kerststal1.jpg" alt="Headerfoto homepage" class="headerhomepagina"/>
+                        <p>Een betere theaterspeler worden, nieuwe ideeen, visies en inzichten opdoen en een mooi theater neerzetten?</p>
+                        <button type="button" class="actionbutton">Word nu lid</button>
+                    </figure>
+
+
+
+
+
+
+
