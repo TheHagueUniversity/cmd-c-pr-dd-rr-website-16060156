@@ -3,23 +3,29 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="imperiumhomepage.css">
-		<title>Imperiumtheater</title>	
+		<title>Imperiumtheater</title>
 	</head>
 
 	<body>
          <div class="container">
             <header>
-                
+
                 <figure>
                     <!-- Dit is het logo van Imperium, linksbovenaan de pagina. -->
                     <img src="images/imperiumlogo.jpg" alt="Imperium logo" class="hoofdlogo"/>
                     <!-- IK WEET NOU NIET HOE IK HET LOGO ALLEEN IN CSS KRIJG. EN OOK GOED WEERGEGEVEN. DIT MOET NATUURLIJK WEL IN CSS OMDAT HET GEEN CONTENT IS (NOG ANDER LOGO INVOEGEN). -->
+										<!-- REVIEW
+										Via http://codepen.io/joelplasCMD-UX/ kun je een manier vinden
+										-->
                 </figure>
-              
+
                 <!-- Dit is het hoofdmenu, bovenaan de pagina. -->
                 <nav class="hoofdnavigatie">
                     <ul>
                         <li><a href="imperiumhomepage.html">Home</a></li>
+												<!-- REVIEW
+												Het is een afspraak dat we de homepagina altijd index.html noemen
+												-->
                         <li><a href="#">Over ons</a></li>
                         <li><a href="#">Impressie</a></li>
                         <li><a href="#">Waarom lid</a></li>
@@ -27,22 +33,32 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                
+
                     <form>
+											<!-- REVIEW
+											Een form moet altijd een method bevatten (en een id)
+											-->
                         <!-- Dit is de zoekbalk, rechtsbovenin de pagina. -->
                         <label for="zoekbalk"></label>
                         <input id="zoekbalk" type="search" name="zoekbalk" placeholder="Zoeken" class="zoekbalk">
+												<!-- REVIEW
+												Er moet nog een actie bij, een input type="submit" of via javascript
+												-->
                     </form>
             </header>
-             
+
              <main>
              </main>
-        
+
             <footer>
                 <!-- Dit is 'Navigatie', onderaan de pagina in de footer. -->
                 <nav class="footernavigatie">
                     <ul>
                         <li><h2>Navigatie</h2></li>
+												<!-- REVIEW
+												Navigatie is hier een titel en geen onderdeel van de lijst.
+												Moet dus boven de ul komen te staan
+												-->
                         <li><a href="imperiumhomepage.html">Home</a></li>
                         <li><a href="#">Over ons</a></li>
                         <li><a href="#">Impressie</a></li>
@@ -51,7 +67,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                
+
                 <!-- Dit is 'Theater', onderaan de pagina in de footer. -->
                 <section class="footeradres">
                     <ul>
@@ -62,11 +78,11 @@
                         <li>071 - 5141035</li>
                         <li><a href="#">Plan je route</a></li>
                     </ul>
-                </section> 
-                
+                </section>
+
             </footer>
             </div>
     </body>
 </html>
-                    
+
 <!-- https://codepen.io/joelplasCMD-UX/pen/XMxopK = website voorbeeld Joel, code. -->

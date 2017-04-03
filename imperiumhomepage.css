@@ -48,7 +48,9 @@ h2 {
     color: #333333;
     margin-bottom: 20px;
 }
-
+/*
+Zou je de font-family ook voor de hele website kunnen vastleggen?
+*/
 
 /* --------------------------------------- MENU --------------------------------------- */
 header {
@@ -124,7 +126,9 @@ input[type=search] {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
 }
-
+/*
+je zou voor het hele footerblok in één keer de font-family kunnen zetten
+*/
 .footeradres li a {
     color: #0090CF;
     text-decoration: none;}
@@ -134,3 +138,4 @@ input[type=search] {
     text-decoration: none;}
 
 /* PS. ik denk dat ik het heel erg onhandig heb gedaan met de opmaak etc. Hier zou ik graag feedback op willen......, ik besteed er nu erg veel tijd aan om kleine veranderingen te maken. */
+/* Opmaak ziet er op het eerste gezicht niet heel erg onhandig uit. Zullen we donderdag even kijken wat je precies bedoelt? */
